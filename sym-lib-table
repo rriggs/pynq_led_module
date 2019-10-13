@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "led_module")(type "Legacy")(uri "${KIPRJMOD}/led_module.lib")(options "")(descr ""))
+)
