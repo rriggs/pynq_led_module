@@ -11,8 +11,3 @@ own boards.  The board was auto-routed using FreeRouting.
 This project is OSHW (Open Source Hardware), released under the GPLv3 license.
 
 ![led_module.png](led_module.png)
-
-* <sub>This rendering shows the board using 7-segment display modules.  This
-is because I do not have a 3D model for a 14-segment display module.  This
-board is designed to be used with 14-segment modules.</sub>
-
