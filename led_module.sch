@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "14-Segment LED Module for Pynq-Z2 RPi Header "
-Date "2019-10-13"
-Rev "B"
+Date "2019-10-21"
+Rev "C"
 Comp "Rob Riggs"
 Comment1 ""
 Comment2 ""
@@ -239,7 +239,7 @@ U 1 1 5DA37E90
 P 2900 2300
 F 0 "Q2" H 2750 2400 50  0000 L CNN
 F 1 "2N7000" H 2700 2150 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3100 2225 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 3100 2225 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2900 2300 50  0001 L CNN
 	1    2900 2300
 	1    0    0    -1  
@@ -250,7 +250,7 @@ U 1 1 5DA3B0FD
 P 2900 2800
 F 0 "Q3" H 2750 2900 50  0000 L CNN
 F 1 "2N7000" H 2700 2650 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3100 2725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 3100 2725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2900 2800 50  0001 L CNN
 	1    2900 2800
 	1    0    0    -1  
@@ -261,7 +261,7 @@ U 1 1 5DA3C3C1
 P 2900 3300
 F 0 "Q4" H 2750 3400 50  0000 L CNN
 F 1 "2N7000" H 2700 3150 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3100 3225 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 3100 3225 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2900 3300 50  0001 L CNN
 	1    2900 3300
 	1    0    0    -1  
@@ -272,7 +272,7 @@ U 1 1 5DA3F774
 P 2900 1800
 F 0 "Q1" H 2750 1900 50  0000 L CNN
 F 1 "2N7000" H 2700 1650 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3100 1725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 3100 1725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 2900 1800 50  0001 L CNN
 	1    2900 1800
 	1    0    0    -1  
@@ -386,12 +386,7 @@ F 3 "" H 1550 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 1800 1550 1800
-Wire Wire Line
-	1550 1800 1550 2200
-Wire Wire Line
 	1650 2200 1550 2200
-Connection ~ 1550 2200
 Wire Wire Line
 	1550 2200 1550 3000
 Wire Wire Line
@@ -534,4 +529,5 @@ Wire Wire Line
 	2450 1800 2700 1800
 Wire Wire Line
 	2600 1550 2600 3100
+NoConn ~ 1650 1800
 $EndSCHEMATC
