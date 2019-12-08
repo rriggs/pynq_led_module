@@ -1,4 +1,4 @@
-# 8P DIP Switch PMO
+# 8P DIP Switch PMOD
 
 This is an add-on board designed for the Pynq-Z2 FPGA development board.
 This is a 8-position DIP swith PMOD.  This board expects that there are
