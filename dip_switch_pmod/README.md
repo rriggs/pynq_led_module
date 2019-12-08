@@ -1,4 +1,4 @@
-# 14-Segment LED Module for Pynq-Z2 RPi Header 
+# 8P DIP Switch PMO
 
 This is an add-on board designed for the Pynq-Z2 FPGA development board.
 This is a 8-position DIP swith PMOD.  This board expects that there are
@@ -9,7 +9,7 @@ own boards.  The board was auto-routed using FreeRouting.
 
 This project is OSHW (Open Source Hardware), released under the GPLv3 license.
 
-![led_module.png](led_module.png)
+![dip_switch_pmod.png](dip_switch_pmod.png)
 
 If you are interested in purchasing kits or complete modules, please contant
 me at rob@mobilinkd.com.
