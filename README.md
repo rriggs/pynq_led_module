@@ -1,13 +1,19 @@
-# 14-Segment LED Module for Pynq-Z2 RPi Header 
+# Modules for Pynq-Z2
 
-This is an add-on board designed for the Pynq-Z2 FPGA development board.
-This is a 4-digit LED display using two Lite-On LTP-3784 14-segment display
-modules. This board avoids using the pins on the Pynq-Z2 RPi connector
-which are shared with the PMOD A connector so that both can be used at the
-same time.
+This repo contains modules for the TUL Pynq-Z2 board.
 
+This repo was created for a single board, but morphed into a container
+for multiple boards as the need for boards grew.
+
+The boards in this repo are:
+
+ 1. A [14-segment LED module for the Raspberry Pi header](14-segment_led_module/README.md)
+ 1. A [7-segment LED module for the Raspberry Pi header](7-segment_led_module/README.md)
+ 1. A [8-segment LED bar graph module PMOD](bar-graph_led_pmod/README.md)
+ 1. A [8P DIP switch PMOD](dip_switch_pmod/README.md)
+ 
 This repo contains KiCAD files and Gerbers for those wanting to make their
-own boards.  The board was auto-routed using FreeRouting.
+own boards.  These boards were all auto-routed using FreeRouting.
 
 This project is OSHW (Open Source Hardware), released under the GPLv3 license.
 
