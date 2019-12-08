@@ -3,9 +3,8 @@
 
 # Temporary files
 *.000
-*.bak
-*.bck
-*.kicad_pcb-bak
+*bak
+*bck
 *~
 _autosave-*
 *.tmp
@@ -13,6 +12,7 @@ _autosave-*
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
+*.zip
 
 # Netlist files (exported from Eeschema)
 *.net
