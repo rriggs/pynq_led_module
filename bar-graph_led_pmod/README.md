@@ -12,6 +12,8 @@ This project is OSHW (Open Source Hardware), released under the GPLv3 license.
 
 ![8_led_pmod.png](8_led_pmod.png)
 
+*The DIP socket in the image is a placeholder for the LED module as I do not have a model for an 8-segment bar graph module.*
+
 If you are interested in purchasing kits or complete modules, please contant
 me at rob@mobilinkd.com.
 
