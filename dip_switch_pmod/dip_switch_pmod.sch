@@ -1,0 +1,290 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "8P Dip Switch PMOD"
+Date "2019-12-07"
+Rev "A"
+Comp "Mobilinkd LLC"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L Switch:SW_DIP_x08 SW1
+U 1 1 5DED8E92
+P 4550 3250
+F 0 "SW1" H 4550 3917 50  0000 C CNN
+F 1 "SW_DIP_x08" H 4550 3826 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm" H 4550 3250 50  0001 C CNN
+F 3 "~" H 4550 3250 50  0001 C CNN
+	1    4550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network08 RN1
+U 1 1 5DEDA926
+P 3900 4000
+F 0 "RN1" H 3420 3954 50  0000 R CNN
+F 1 "R_Network08" H 3420 4045 50  0000 R CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 4375 4000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3900 4000 50  0001 C CNN
+	1    3900 4000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2750 2700 2750 3050
+Wire Wire Line
+	4250 2850 4250 2700
+Wire Wire Line
+	4250 2950 4200 2950
+Wire Wire Line
+	4200 2950 4200 2650
+Wire Wire Line
+	2700 2650 2700 3150
+Wire Wire Line
+	2700 3150 2750 3150
+Wire Wire Line
+	4250 3050 4150 3050
+Wire Wire Line
+	4150 3050 4150 2600
+Wire Wire Line
+	2650 2600 2650 3250
+Wire Wire Line
+	2650 3250 2750 3250
+Wire Wire Line
+	4250 3150 4100 3150
+Wire Wire Line
+	4100 3150 4100 2550
+Wire Wire Line
+	2600 2550 2600 3350
+Wire Wire Line
+	2600 3350 2750 3350
+Wire Wire Line
+	4250 3250 4050 3250
+Wire Wire Line
+	4050 3250 4050 3050
+Wire Wire Line
+	4050 3050 3850 3050
+Wire Wire Line
+	4250 3350 4000 3350
+Wire Wire Line
+	4000 3350 4000 3150
+Wire Wire Line
+	4000 3150 3250 3150
+Wire Wire Line
+	4250 3450 4100 3450
+Wire Wire Line
+	3950 3450 3950 3250
+Wire Wire Line
+	3950 3250 3250 3250
+Wire Wire Line
+	4250 3550 4200 3550
+Wire Wire Line
+	3900 3550 3900 3350
+Wire Wire Line
+	3900 3350 3250 3350
+Wire Wire Line
+	4200 3800 4200 3550
+Connection ~ 4200 3550
+Wire Wire Line
+	4200 3550 3900 3550
+Wire Wire Line
+	4100 3800 4100 3450
+Connection ~ 4100 3450
+Wire Wire Line
+	4100 3450 3950 3450
+Wire Wire Line
+	4000 3800 4000 3350
+Connection ~ 4000 3350
+Wire Wire Line
+	3900 3800 3900 3650
+Wire Wire Line
+	3900 3650 3850 3650
+Wire Wire Line
+	3850 3650 3850 3050
+Connection ~ 3850 3050
+Wire Wire Line
+	3850 3050 3250 3050
+Wire Wire Line
+	4850 3550 4950 3550
+Wire Wire Line
+	4950 3550 4950 3450
+Wire Wire Line
+	4950 2450 3650 2450
+Wire Wire Line
+	2500 2450 2500 3550
+Wire Wire Line
+	2500 3550 2750 3550
+Wire Wire Line
+	3250 3550 3250 3750
+Wire Wire Line
+	3250 3750 2750 3750
+Wire Wire Line
+	2750 3750 2750 3550
+Connection ~ 2750 3550
+Wire Wire Line
+	4850 3450 4950 3450
+Connection ~ 4950 3450
+Wire Wire Line
+	4950 3450 4950 3350
+Wire Wire Line
+	4850 3350 4950 3350
+Connection ~ 4950 3350
+Wire Wire Line
+	4950 3350 4950 3250
+Wire Wire Line
+	4850 3250 4950 3250
+Connection ~ 4950 3250
+Wire Wire Line
+	4950 3250 4950 3150
+Wire Wire Line
+	4850 3150 4950 3150
+Connection ~ 4950 3150
+Wire Wire Line
+	4950 3150 4950 3050
+Wire Wire Line
+	4850 3050 4950 3050
+Connection ~ 4950 3050
+Wire Wire Line
+	4950 3050 4950 2950
+Wire Wire Line
+	4850 2950 4950 2950
+Connection ~ 4950 2950
+Wire Wire Line
+	4950 2950 4950 2850
+Wire Wire Line
+	4850 2850 4950 2850
+Connection ~ 4950 2850
+Wire Wire Line
+	4950 2850 4950 2450
+$Comp
+L power:GND #PWR01
+U 1 1 5DEE9704
+P 3350 4200
+F 0 "#PWR01" H 3350 3950 50  0001 C CNN
+F 1 "GND" H 3355 4027 50  0000 C CNN
+F 2 "" H 3350 4200 50  0001 C CNN
+F 3 "" H 3350 4200 50  0001 C CNN
+	1    3350 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3450 3350 3450
+Wire Wire Line
+	3350 3450 3350 4200
+Wire Wire Line
+	3500 4200 3350 4200
+Connection ~ 3350 4200
+Wire Wire Line
+	2750 3450 2600 3450
+Wire Wire Line
+	2600 3450 2600 4200
+Wire Wire Line
+	2600 4200 3350 4200
+$Comp
+L power:+3V3 #PWR03
+U 1 1 5DEEA2D1
+P 5500 3250
+F 0 "#PWR03" H 5500 3100 50  0001 C CNN
+F 1 "+3V3" H 5515 3423 50  0000 C CNN
+F 2 "" H 5500 3250 50  0001 C CNN
+F 3 "" H 5500 3250 50  0001 C CNN
+	1    5500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR02
+U 1 1 5DEECD9A
+P 3650 2450
+F 0 "#PWR02" H 3650 2300 50  0001 C CNN
+F 1 "+3V3" H 3665 2623 50  0000 C CNN
+F 2 "" H 3650 2450 50  0001 C CNN
+F 3 "" H 3650 2450 50  0001 C CNN
+	1    3650 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 2450
+Wire Wire Line
+	3650 2450 2500 2450
+$Comp
+L power:GND #PWR04
+U 1 1 5DEEAFDA
+P 5900 3250
+F 0 "#PWR04" H 5900 3000 50  0001 C CNN
+F 1 "GND" H 5905 3077 50  0000 C CNN
+F 2 "" H 5900 3250 50  0001 C CNN
+F 3 "" H 5900 3250 50  0001 C CNN
+	1    5900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5DEEB6F4
+P 5900 3250
+F 0 "#FLG02" H 5900 3325 50  0001 C CNN
+F 1 "PWR_FLAG" H 5900 3423 50  0000 C CNN
+F 2 "" H 5900 3250 50  0001 C CNN
+F 3 "~" H 5900 3250 50  0001 C CNN
+	1    5900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5DEECD9B
+P 5500 3250
+F 0 "#FLG01" H 5500 3325 50  0001 C CNN
+F 1 "PWR_FLAG" H 5500 3423 50  0000 C CNN
+F 2 "" H 5500 3250 50  0001 C CNN
+F 3 "~" H 5500 3250 50  0001 C CNN
+	1    5500 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Top_Bottom J1
+U 1 1 5DED7E58
+P 2950 3250
+F 0 "J1" H 3000 3667 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 3000 3576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 2950 3250 50  0001 C CNN
+F 3 "~" H 2950 3250 50  0001 C CNN
+	1    2950 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2700 3500 2700
+Wire Wire Line
+	2700 2650 3600 2650
+Wire Wire Line
+	2650 2600 3700 2600
+Wire Wire Line
+	3800 3800 3800 2550
+Wire Wire Line
+	2600 2550 3800 2550
+Connection ~ 3800 2550
+Wire Wire Line
+	3800 2550 4100 2550
+Wire Wire Line
+	3700 3800 3700 2600
+Connection ~ 3700 2600
+Wire Wire Line
+	3700 2600 4150 2600
+Wire Wire Line
+	3600 3800 3600 2650
+Connection ~ 3600 2650
+Wire Wire Line
+	3600 2650 4200 2650
+Wire Wire Line
+	3500 3800 3500 2700
+Connection ~ 3500 2700
+Wire Wire Line
+	3500 2700 4250 2700
+$EndSCHEMATC

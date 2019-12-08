@@ -1,0 +1,245 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "8-Segment Bar Graph PMOD"
+Date "2019-12-07"
+Rev "A"
+Comp "Mobilinkd LLC"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x06_Top_Bottom J1
+U 1 1 5DECC8C8
+P 3400 3250
+F 0 "J1" H 3450 3667 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 3450 3576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 3400 3250 50  0001 C CNN
+F 3 "~" H 3400 3250 50  0001 C CNN
+	1    3400 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2900 4300 2450
+Wire Wire Line
+	4300 2450 3150 2450
+Wire Wire Line
+	3150 2450 3150 3050
+Wire Wire Line
+	3150 3050 3200 3050
+Wire Wire Line
+	4300 3000 4250 3000
+Wire Wire Line
+	4250 3000 4250 2400
+Wire Wire Line
+	4250 2400 3100 2400
+Wire Wire Line
+	3100 2400 3100 3150
+Wire Wire Line
+	3100 3150 3200 3150
+Wire Wire Line
+	4300 3100 4200 3100
+Wire Wire Line
+	4200 3100 4200 2350
+Wire Wire Line
+	4200 2350 3050 2350
+Wire Wire Line
+	3050 2350 3050 3250
+Wire Wire Line
+	3050 3250 3200 3250
+Wire Wire Line
+	4300 3200 4150 3200
+Wire Wire Line
+	4150 3200 4150 2300
+Wire Wire Line
+	4150 2300 3000 2300
+Wire Wire Line
+	3000 2300 3000 3350
+Wire Wire Line
+	3000 3350 3200 3350
+$Comp
+L power:GND #PWR02
+U 1 1 5DED0715
+P 3100 3800
+F 0 "#PWR02" H 3100 3550 50  0001 C CNN
+F 1 "GND" H 3105 3627 50  0000 C CNN
+F 2 "" H 3100 3800 50  0001 C CNN
+F 3 "" H 3100 3800 50  0001 C CNN
+	1    3100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5DED33B8
+P 3800 3750
+F 0 "#PWR03" H 3800 3500 50  0001 C CNN
+F 1 "GND" H 3805 3577 50  0000 C CNN
+F 2 "" H 3800 3750 50  0001 C CNN
+F 3 "" H 3800 3750 50  0001 C CNN
+	1    3800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR01
+U 1 1 5DED11E1
+P 2750 3550
+F 0 "#PWR01" H 2750 3400 50  0001 C CNN
+F 1 "+3V3" H 2765 3723 50  0000 C CNN
+F 2 "" H 2750 3550 50  0001 C CNN
+F 3 "" H 2750 3550 50  0001 C CNN
+	1    2750 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3550 3700 3700
+Wire Wire Line
+	3700 3700 3450 3700
+Wire Wire Line
+	3200 3700 3200 3550
+Wire Wire Line
+	2750 3550 3200 3550
+Connection ~ 3200 3550
+Wire Wire Line
+	3100 3800 3100 3450
+Wire Wire Line
+	3100 3450 3200 3450
+Wire Wire Line
+	3800 3750 3800 3450
+Wire Wire Line
+	3800 3450 3700 3450
+Wire Wire Line
+	4300 3300 4100 3300
+Wire Wire Line
+	4100 3300 4100 3050
+Wire Wire Line
+	4100 3050 3700 3050
+Wire Wire Line
+	4300 3400 4050 3400
+Wire Wire Line
+	4050 3400 4050 3150
+Wire Wire Line
+	4050 3150 3700 3150
+Wire Wire Line
+	4300 3500 4000 3500
+Wire Wire Line
+	4000 3500 4000 3250
+Wire Wire Line
+	4000 3250 3700 3250
+Wire Wire Line
+	4300 3600 3950 3600
+Wire Wire Line
+	3950 3600 3950 3350
+Wire Wire Line
+	3950 3350 3700 3350
+Wire Wire Line
+	4700 2900 4850 2900
+Wire Wire Line
+	4850 2900 4850 3000
+Wire Wire Line
+	4850 4100 3450 4100
+Wire Wire Line
+	3450 4100 3450 3700
+Connection ~ 3450 3700
+Wire Wire Line
+	3450 3700 3200 3700
+Wire Wire Line
+	4700 3000 4850 3000
+Connection ~ 4850 3000
+Wire Wire Line
+	4850 3000 4850 3100
+Wire Wire Line
+	4700 3100 4850 3100
+Connection ~ 4850 3100
+Wire Wire Line
+	4850 3100 4850 3200
+Wire Wire Line
+	4700 3200 4850 3200
+Connection ~ 4850 3200
+Wire Wire Line
+	4850 3200 4850 3300
+Wire Wire Line
+	4700 3300 4850 3300
+Connection ~ 4850 3300
+Wire Wire Line
+	4850 3300 4850 3400
+Wire Wire Line
+	4700 3400 4850 3400
+Connection ~ 4850 3400
+Wire Wire Line
+	4850 3400 4850 3500
+Wire Wire Line
+	4700 3500 4850 3500
+Connection ~ 4850 3500
+Wire Wire Line
+	4850 3500 4850 3600
+Wire Wire Line
+	4700 3600 4850 3600
+Connection ~ 4850 3600
+Wire Wire Line
+	4850 3600 4850 4100
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5DED3567
+P 5700 2750
+F 0 "#FLG0101" H 5700 2825 50  0001 C CNN
+F 1 "PWR_FLAG" H 5700 2923 50  0000 C CNN
+F 2 "" H 5700 2750 50  0001 C CNN
+F 3 "~" H 5700 2750 50  0001 C CNN
+	1    5700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5DED63EE
+P 6200 2750
+F 0 "#FLG0102" H 6200 2825 50  0001 C CNN
+F 1 "PWR_FLAG" H 6200 2923 50  0000 C CNN
+F 2 "" H 6200 2750 50  0001 C CNN
+F 3 "~" H 6200 2750 50  0001 C CNN
+	1    6200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 5DED3B3C
+P 5700 2750
+F 0 "#PWR0101" H 5700 2600 50  0001 C CNN
+F 1 "+3V3" H 5715 2923 50  0000 C CNN
+F 2 "" H 5700 2750 50  0001 C CNN
+F 3 "" H 5700 2750 50  0001 C CNN
+	1    5700 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5DED3FD9
+P 6200 2750
+F 0 "#PWR0102" H 6200 2500 50  0001 C CNN
+F 1 "GND" H 6205 2577 50  0000 C CNN
+F 2 "" H 6200 2750 50  0001 C CNN
+F 3 "" H 6200 2750 50  0001 C CNN
+	1    6200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L b08sr:B08SR BAR1
+U 1 1 5DED5176
+P 4500 3200
+F 0 "BAR1" H 4500 3867 50  0000 C CNN
+F 1 "B08SR" H 4500 3776 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 4500 2400 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 2500 3400 50  0001 C CNN
+	1    4500 3200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

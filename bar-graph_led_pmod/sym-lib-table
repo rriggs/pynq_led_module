@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "B08SR")(type "Legacy")(uri "${KIPRJMOD}/B08SR.lib")(options "")(descr ""))
+  (lib (name "b08sr")(type "Legacy")(uri "${KIPRJMOD}/b08sr.lib")(options "")(descr ""))
+)

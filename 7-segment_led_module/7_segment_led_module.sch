@@ -1,0 +1,351 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "7-Segment LED Module for Pynq-Z2 RPi Header"
+Date "2019-12-06"
+Rev "A"
+Comp "Mobilinkd LLC"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L Display_Character:CC56-12CGKWA U1
+U 1 1 5DEB115F
+P 6000 3550
+F 0 "U1" H 6000 4217 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 6000 4126 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 6000 2950 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 5570 3580 50  0001 C CNN
+	1    6000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 5DEB4582
+P 2700 3550
+F 0 "J1" H 2750 4667 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 2750 4576 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 2700 3550 50  0001 C CNN
+F 3 "~" H 2700 3550 50  0001 C CNN
+	1    2700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q1
+U 1 1 5DEBD077
+P 3750 2650
+F 0 "Q1" H 3650 2800 50  0000 L CNN
+F 1 "2N7000" H 3450 2500 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 3950 2575 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 3750 2650 50  0001 L CNN
+	1    3750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q2
+U 1 1 5DED11B2
+P 3750 3300
+F 0 "Q2" H 3650 3450 50  0000 L CNN
+F 1 "2N7000" H 3450 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 3950 3225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 3750 3300 50  0001 L CNN
+	1    3750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q3
+U 1 1 5DEBEE5B
+P 3750 3900
+F 0 "Q3" H 3650 4050 50  0000 L CNN
+F 1 "2N7000" H 3450 3750 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 3950 3825 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 3750 3900 50  0001 L CNN
+	1    3750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q4
+U 1 1 5DEBF356
+P 3750 4550
+F 0 "Q4" H 3650 4700 50  0000 L CNN
+F 1 "2N7000" H 3450 4400 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 3950 4475 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 3750 4550 50  0001 L CNN
+	1    3750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5DEC1575
+P 2350 4800
+F 0 "#PWR0101" H 2350 4550 50  0001 C CNN
+F 1 "GND" H 2355 4627 50  0000 C CNN
+F 2 "" H 2350 4800 50  0001 C CNN
+F 3 "" H 2350 4800 50  0001 C CNN
+	1    2350 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3050 2350 3050
+Wire Wire Line
+	2350 3050 2350 3850
+Wire Wire Line
+	2500 3850 2350 3850
+Connection ~ 2350 3850
+Wire Wire Line
+	2500 4550 2350 4550
+Wire Wire Line
+	2350 3850 2350 4550
+Connection ~ 2350 4550
+Wire Wire Line
+	2350 4550 2350 4800
+Wire Wire Line
+	3000 4550 3250 4550
+Wire Wire Line
+	3250 4550 3250 2650
+Wire Wire Line
+	3250 2650 3550 2650
+Wire Wire Line
+	3000 4450 3300 4450
+Wire Wire Line
+	3300 4450 3300 3300
+Wire Wire Line
+	3300 3300 3550 3300
+Wire Wire Line
+	3000 4350 3350 4350
+Wire Wire Line
+	3350 4350 3350 3900
+Wire Wire Line
+	3350 3900 3550 3900
+Wire Wire Line
+	3000 4150 3400 4150
+Wire Wire Line
+	3400 4150 3400 4550
+Wire Wire Line
+	3400 4550 3550 4550
+$Comp
+L power:GND #PWR0102
+U 1 1 5DEC35E8
+P 3100 4850
+F 0 "#PWR0102" H 3100 4600 50  0001 C CNN
+F 1 "GND" H 3105 4677 50  0000 C CNN
+F 2 "" H 3100 4850 50  0001 C CNN
+F 3 "" H 3100 4850 50  0001 C CNN
+	1    3100 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4250 3100 4250
+Wire Wire Line
+	3100 4250 3100 4850
+$Comp
+L power:GND #PWR0103
+U 1 1 5DEC3854
+P 3450 4850
+F 0 "#PWR0103" H 3450 4600 50  0001 C CNN
+F 1 "GND" H 3455 4677 50  0000 C CNN
+F 2 "" H 3450 4850 50  0001 C CNN
+F 3 "" H 3450 4850 50  0001 C CNN
+	1    3450 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2850 3450 2850
+Wire Wire Line
+	3450 2850 3450 3500
+Wire Wire Line
+	3850 3500 3450 3500
+Connection ~ 3450 3500
+Wire Wire Line
+	3850 4100 3450 4100
+Wire Wire Line
+	3450 3500 3450 4100
+Connection ~ 3450 4100
+Wire Wire Line
+	3450 4100 3450 4750
+Wire Wire Line
+	3850 4750 3450 4750
+Connection ~ 3450 4750
+Wire Wire Line
+	3450 4750 3450 4850
+Wire Wire Line
+	7100 3950 7100 4350
+Wire Wire Line
+	7100 4350 3850 4350
+Wire Wire Line
+	7100 3850 7150 3850
+Wire Wire Line
+	7150 3850 7150 4300
+Wire Wire Line
+	7150 4300 4050 4300
+Wire Wire Line
+	4050 4300 4050 3700
+Wire Wire Line
+	4050 3700 3850 3700
+Wire Wire Line
+	7100 3750 7200 3750
+Wire Wire Line
+	7200 3750 7200 4250
+Wire Wire Line
+	7200 4250 4100 4250
+Wire Wire Line
+	4100 4250 4100 3100
+Wire Wire Line
+	4100 3100 3850 3100
+Wire Wire Line
+	7100 3650 7250 3650
+Wire Wire Line
+	7250 3650 7250 4200
+Wire Wire Line
+	7250 4200 4150 4200
+Wire Wire Line
+	4150 4200 4150 2450
+Wire Wire Line
+	4150 2450 3850 2450
+Wire Wire Line
+	4900 3250 4900 2150
+Wire Wire Line
+	2300 2150 2300 4350
+Wire Wire Line
+	2300 4350 2500 4350
+Wire Wire Line
+	4900 2150 2300 2150
+Wire Wire Line
+	4900 3350 4850 3350
+Wire Wire Line
+	4850 3350 4850 2100
+Wire Wire Line
+	4850 2100 2250 2100
+Wire Wire Line
+	2250 2100 2250 4450
+Wire Wire Line
+	2250 4450 2500 4450
+Wire Wire Line
+	4900 3450 4800 3450
+Wire Wire Line
+	4800 3450 4800 2050
+Wire Wire Line
+	4800 2050 2200 2050
+Wire Wire Line
+	2200 2050 2200 3650
+Wire Wire Line
+	2200 3650 2500 3650
+Wire Wire Line
+	4900 3550 4750 3550
+Wire Wire Line
+	4750 3550 4750 2000
+Wire Wire Line
+	4750 2000 2150 2000
+Wire Wire Line
+	2150 2000 2150 3350
+Wire Wire Line
+	2150 3350 2500 3350
+Wire Wire Line
+	4900 3650 4700 3650
+Wire Wire Line
+	4700 3650 4700 2200
+Wire Wire Line
+	4700 2200 3200 2200
+Wire Wire Line
+	3200 2200 3200 3350
+Wire Wire Line
+	3200 3350 3000 3350
+Wire Wire Line
+	4900 3750 4650 3750
+Wire Wire Line
+	4650 3750 4650 1950
+Wire Wire Line
+	4650 1950 2100 1950
+Wire Wire Line
+	2100 1950 2100 3750
+Wire Wire Line
+	2100 3750 2500 3750
+Wire Wire Line
+	4900 3850 4600 3850
+Wire Wire Line
+	4600 3850 4600 1900
+Wire Wire Line
+	4600 1900 2050 1900
+Wire Wire Line
+	2050 1900 2050 3250
+Wire Wire Line
+	2050 3250 2500 3250
+Wire Wire Line
+	4900 3950 4550 3950
+Wire Wire Line
+	4550 3950 4550 1850
+Wire Wire Line
+	4550 1850 2000 1850
+Wire Wire Line
+	2000 1850 2000 3550
+Wire Wire Line
+	2000 3550 2500 3550
+Wire Wire Line
+	3000 3250 3100 3250
+Wire Wire Line
+	3100 3250 3100 3550
+Connection ~ 3100 4250
+Wire Wire Line
+	3000 3550 3100 3550
+Connection ~ 3100 3550
+Wire Wire Line
+	3100 3550 3100 4050
+Wire Wire Line
+	3000 4050 3100 4050
+Connection ~ 3100 4050
+Wire Wire Line
+	3100 4050 3100 4250
+NoConn ~ 2500 2650
+NoConn ~ 2500 2750
+NoConn ~ 2500 2850
+NoConn ~ 2500 2950
+NoConn ~ 2500 3150
+NoConn ~ 2500 3450
+NoConn ~ 2500 3950
+NoConn ~ 2500 4050
+NoConn ~ 2500 4150
+NoConn ~ 2500 4250
+NoConn ~ 3000 3950
+NoConn ~ 3000 3850
+NoConn ~ 3000 3750
+NoConn ~ 3000 3650
+NoConn ~ 3000 3150
+NoConn ~ 3000 3050
+NoConn ~ 3000 2950
+NoConn ~ 3000 2850
+NoConn ~ 3000 2750
+NoConn ~ 3000 2650
+NoConn ~ 3000 3450
+$Comp
+L power:GND #PWR0104
+U 1 1 5DED173F
+P 7800 3600
+F 0 "#PWR0104" H 7800 3350 50  0001 C CNN
+F 1 "GND" H 7805 3427 50  0000 C CNN
+F 2 "" H 7800 3600 50  0001 C CNN
+F 3 "" H 7800 3600 50  0001 C CNN
+	1    7800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5DED2192
+P 7800 3600
+F 0 "#FLG0101" H 7800 3675 50  0001 C CNN
+F 1 "PWR_FLAG" H 7800 3773 50  0000 C CNN
+F 2 "" H 7800 3600 50  0001 C CNN
+F 3 "~" H 7800 3600 50  0001 C CNN
+	1    7800 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
