@@ -1,8 +1,13 @@
 # 8P DIP Switch PMOD
 
-This is an add-on board designed for the Pynq-Z2 FPGA development board.
-This is a 8-position DIP swith PMOD.  This board expects that there are
-inline current limiting resistors on the PMOD signal lines.
+This is a 8-position DIP swith PMOD.  The 9-pin SIP module is for an optional
+pull-down resistor array.  It is not strictly necessary as the pins on the
+FPGA should have weak pull-downs that can be enabled.
+
+This board expects that there are inline current limiting resistors on the
+PMOD signal lines to avoid exceeding the current rating of both the switch
+and the FPGA should the FPGA pins be accidentally configured for output
+rather than input.
 
 This repo contains KiCAD files and Gerbers for those wanting to make their
 own boards.  The board was auto-routed using FreeRouting.
